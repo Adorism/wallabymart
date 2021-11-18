@@ -1,0 +1,13 @@
+{
+  "class": "App",
+  "id": "customer_data",
+  "name": "customer data",
+  "type": "postgres",
+  "options": {
+    "port": 5432,
+    "schema": "public",
+    "database": "wallabymart",
+    "password": "tr33fr0g",
+    "user": "audreymaldonado"
+  }
+}

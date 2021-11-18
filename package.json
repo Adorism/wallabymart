@@ -1,0 +1,29 @@
+{
+  "author": "Your Name <email@example.com>",
+  "name": "wallabymart",
+  "description": "A Grouparoo Deployment",
+  "version": "0.0.1",
+  "license": "MPL-2.0",
+  "private": true,
+  "engines": {
+    "node": ">=12.0.0 <17.0.0"
+  },
+  "dependencies": {
+    "@grouparoo/core": "0.7.3",
+    "@grouparoo/hubspot": "0.7.3",
+    "@grouparoo/postgres": "0.7.3",
+    "@grouparoo/ui-community": "0.7.3"
+  },
+  "devDependencies": {
+    "@grouparoo/ui-config": "0.7.3"
+  },
+  "scripts": {
+    "start": "cd node_modules/@grouparoo/core && ./bin/start"
+  },
+  "grouparoo": {
+    "plugins": [
+      "@grouparoo/hubspot",
+      "@grouparoo/postgres"
+    ]
+  }
+}
