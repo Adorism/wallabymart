@@ -5,7 +5,7 @@ df = pd.read_csv('wallabymart_customer_data.csv')
 # that's probably my answer
 df.columns = [c.lower() for c in df.columns]
 # I will go back and add logic to replace " " with "_"
-
+df.columns.str.replace(' ', '_')
 engine = create_engine(
     'postgresql://audreymaldonado:tr33fr0g@localhost:5432/wallabymart')
 
