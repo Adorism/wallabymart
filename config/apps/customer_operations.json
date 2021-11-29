@@ -1,9 +1,0 @@
-{
-  "class": "App",
-  "id": "customer_operations",
-  "name": "customer operations",
-  "type": "hubspot",
-  "options": {
-    "hapikey": "0288d031-d4c1-4b32-9ccb-9df558a4f2bb"
-  }
-}
