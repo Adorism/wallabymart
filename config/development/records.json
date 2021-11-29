@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rec_cd8c4ffc-ece4-4e39-9b1b-2542e04631e8",
+    "class": "Record",
+    "modelId": "route",
+    "properties": {
+      "customer_id": [1119]
+    }
+  },
+  {
+    "id": "rec_934729b9-3917-4eba-960e-7dd1be876ba9",
+    "class": "Record",
+    "modelId": "route",
+    "properties": {
+      "customer_id": [1111]
+    }
+  },
+  {
+    "id": "rec_a31411a9-7b37-4e8c-b19e-eeaf175d02f7",
+    "class": "Record",
+    "modelId": "route",
+    "properties": {
+      "customer_id": [1120]
+    }
+  }
+]

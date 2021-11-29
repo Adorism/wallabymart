@@ -1,0 +1,29 @@
+[
+  {
+    "class": "Source",
+    "id": "customers",
+    "modelId": "route",
+    "name": "customers",
+    "type": "postgres-import-table",
+    "appId": "customerinfo",
+    "options": {
+      "table": "wallaby_customers"
+    },
+    "mapping": {
+      "customer id": "customer_id"
+    }
+  },
+  {
+    "class": "Schedule",
+    "id": "customers_schedule",
+    "name": "customers schedule",
+    "sourceId": "customers",
+    "recurring": true,
+    "recurringFrequency": 3600000,
+    "confirmRecords": true,
+    "options": {
+      "column": "customer id"
+    },
+    "filters": []
+  }
+]

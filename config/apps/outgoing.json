@@ -1,0 +1,9 @@
+{
+  "class": "App",
+  "id": "outgoing",
+  "name": "outgoing",
+  "type": "hubspot",
+  "options": {
+    "hapikey": "e24f90c8-e2f9-4cbe-add0-b6646bda8da4"
+  }
+}

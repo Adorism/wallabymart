@@ -1,0 +1,16 @@
+{
+  "id": "webs",
+  "class": "Group",
+  "type": "calculated",
+  "modelId": "route",
+  "name": "webs",
+  "rules": [
+    {
+      "propertyId": "state",
+      "operation": {
+        "op": "ne"
+      },
+      "match": "Idaho"
+    }
+  ]
+}

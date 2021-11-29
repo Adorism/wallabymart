@@ -1,0 +1,19 @@
+{
+  "class": "Destination",
+  "id": "mail_list",
+  "modelId": "route",
+  "name": "mail_list",
+  "type": "hubspot-export-contacts",
+  "appId": "outgoing",
+  "collection": "group",
+  "groupId": "webs",
+  "syncMode": "additive",
+  "options": {},
+  "mapping": {
+    "company": "state",
+    "email": "email",
+    "firstname": "prefix",
+    "lastname": "name"
+  },
+  "destinationGroupMemberships": {}
+}

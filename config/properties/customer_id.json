@@ -1,0 +1,15 @@
+{
+  "class": "Property",
+  "id": "customer_id",
+  "type": "integer",
+  "key": "customer_id",
+  "sourceId": "customers",
+  "unique": true,
+  "identifying": true,
+  "isArray": false,
+  "options": {
+    "aggregationMethod": "exact",
+    "column": "customer id"
+  },
+  "filters": []
+}

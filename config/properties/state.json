@@ -1,0 +1,15 @@
+{
+  "class": "Property",
+  "id": "state",
+  "type": "string",
+  "key": "state",
+  "sourceId": "customers",
+  "unique": false,
+  "identifying": false,
+  "isArray": false,
+  "options": {
+    "aggregationMethod": "exact",
+    "column": "state"
+  },
+  "filters": []
+}

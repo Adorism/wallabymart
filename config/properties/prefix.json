@@ -1,0 +1,15 @@
+{
+  "class": "Property",
+  "id": "prefix",
+  "type": "string",
+  "key": "prefix",
+  "sourceId": "customers",
+  "unique": false,
+  "identifying": false,
+  "isArray": false,
+  "options": {
+    "aggregationMethod": "exact",
+    "column": "prefix"
+  },
+  "filters": []
+}

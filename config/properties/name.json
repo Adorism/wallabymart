@@ -1,0 +1,15 @@
+{
+  "class": "Property",
+  "id": "name",
+  "type": "string",
+  "key": "name",
+  "sourceId": "customers",
+  "unique": false,
+  "identifying": false,
+  "isArray": false,
+  "options": {
+    "aggregationMethod": "exact",
+    "column": "name"
+  },
+  "filters": []
+}
